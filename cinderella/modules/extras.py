@@ -8,17 +8,17 @@ ABUSE_STRINGS = (
     "MADARCHOD",
     "Bhenchod ",
     "Randi Ke Aulad",
-    "Betichod"
-    "Tatte"
-    "Chutmarike"
-    "Adhi luli"
-    "Gand Ke Chopadike"
-    "laude"
+    "Betichod", 
+    "Tatte", 
+    "Chutmarike", 
+    "Adhi luli", 
+    "Gand Ke Chopadike", 
+    "laude", 
     "mother fucker"
   )
 
 SONG_STRINGS = (
-    "Will Add Soon"
+    ""
  )
 
 @run_async
@@ -40,11 +40,11 @@ def sing(bot: Bot, update: Update):
       message.reply_text(random.choice(SONG_STRINGS))
 
 __help__ = """
-- /abuse : Abuse someone in malayalam.
-- /sing : First lines of some random malayalam Songs.
+- /abuse : Abuse someone in Hindi/English
+- /sing : First lines of some random Engish Songs.
 """
 
-__mod_name__ = "EXTRAS"
+__mod_name__ = "😡ABUSE😡"
 
 ABUSE_HANDLER = DisableAbleCommandHandler("abuse", abuse)
 SING_HANDLER = DisableAbleCommandHandler("sing", sing)
