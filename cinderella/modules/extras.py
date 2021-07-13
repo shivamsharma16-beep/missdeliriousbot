@@ -9,7 +9,12 @@ ABUSE_STRINGS = (
     "Bhenchod ",
     "Randi Ke Aulad",
     "Betichod"
-
+    "Tatte"
+    "Chutmarike"
+    "Adhi luli"
+    "Gand Ke Chopadike"
+    "laude"
+    "mother fucker"
   )
 
 SONG_STRINGS = (
