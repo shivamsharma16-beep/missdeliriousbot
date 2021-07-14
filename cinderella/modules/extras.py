@@ -18,7 +18,8 @@ ABUSE_STRINGS = (
   )
 
 SONG_STRINGS = (
-    ""
+    "Mere Dost Hai Nakli La La La La", 
+    "My friens are fake la la la la"
  )
 
 @run_async
