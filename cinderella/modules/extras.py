@@ -5,6 +5,7 @@ from cinderella import dispatcher
 from cinderella.modules.disable import DisableAbleCommandHandler
 
 ABUSE_STRINGS = (
+
     "त्रिभुजाकार भोसड़े
 को अपनी लण्ड की फौलादी चोट से
 इतना फैला दुंगा कि उसमे हॉलीवुड का
