@@ -12,7 +12,7 @@ from telegram.utils.helpers import escape_markdown
 from cinderella import dispatcher
 from cinderella.modules.disable import DisableAbleCommandHandler
 
-BASE_URL = 'https://del.dog'
+BASE_URL = 'https://ghostbin.com/'
 
 @run_async
 def paste(bot: Bot, update: Update, args: List[str]):
@@ -71,7 +71,7 @@ def get_paste_content(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_text(res['message'])
         except Exception:
             if r.status_code == 404:
-                update.effective_message.reply_text('Failed to reach dogbin')
+                update.effective_message.reply_text('Failed to reach ghostbin')
             else:
                 update.effective_message.reply_text('Unknown error occured')
         r.raise_for_status()
@@ -104,7 +104,7 @@ def get_paste_stats(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_text(res['message'])
         except Exception:
             if r.status_code == 404:
-                update.effective_message.reply_text('Failed to reach dogbin')
+                update.effective_message.reply_text('Failed to reach ghostbin')
             else:
                 update.effective_message.reply_text('Unknown error occured')
         r.raise_for_status()
@@ -117,9 +117,9 @@ def get_paste_stats(bot: Bot, update: Update, args: List[str]):
 
 
 __help__ = """
- - /paste: Create a paste or a shortened url using [dogbin](https://del.dog)
- - /getpaste: Get the content of a paste or shortened url from [dogbin](https://del.dog)
- - /pastestats: Get stats of a paste or shortened url from [dogbin](https://del.dog)
+ - /paste: Create a paste or a shortened url using [ghostbin](https://ghostbin.com/)
+ - /getpaste: Get the content of a paste or shortened url from [ghostbin](https://ghostbin.com/)
+ - /pastestats: Get stats of a paste or shortened url from [ghostbin](https://ghostbin.com/)
 """
 
 __mod_name__ = "DOGBIN"
