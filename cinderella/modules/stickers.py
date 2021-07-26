@@ -107,7 +107,7 @@ def steal(bot: Bot, update: Update, args: List[str]):
             msg.reply_text(f"Sticker successfully added to [pack](t.me/addstickers/{packname})" +
                             f"\nEmoji is: {sticker_emoji}", parse_mode=ParseMode.MARKDOWN)
         except OSError as e:
-            msg.reply_text("I can only steal images, dude.")
+            msg.reply_text("Due To @alpha_nemesis Blek Mejic I Can Only Steal Sticker And Images😥.")
             print(e)
             return
         except TelegramError as e:
@@ -222,10 +222,10 @@ def makepack_internal(msg, user, png_sticker, emoji, bot, packname, packnum):
         return
 
     if success:
-        msg.reply_text("Sticker pack successfully created! Get it [here](t.me/addstickers/%s)" % packname,
+        msg.reply_text("Sticker pack successfully created!By Blek Mejic Of @alpha_nemesis Get it [here](t.me/addstickers/%s)" % packname,
                        parse_mode=ParseMode.MARKDOWN)
     else:
-        msg.reply_text("Failed to create sticker pack.")
+        msg.reply_text("Failed to create sticker pack due to @alpha_nemesis Blek Mejic.")
 
 
 __help__ = """
