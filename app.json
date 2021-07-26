@@ -53,7 +53,7 @@
          "value": ""
       },
       "SQLALCHEMY_DATABASE_URI": {
-         "description": "Your postgres sql db, empty this field if you dont have one.",
+         "description": "Your postgres sql db, empty this field if you dont have one it'll automatically filled with 60 gb.",
          "required": false,
          "value": "sqldbtype://username:pw@hostname:port/db_name"
       },      
@@ -166,5 +166,5 @@
    "name": "Miss Delirious Bot",
    "repository": "https://github.com/shivamsharma16-beep/missdeliriousbot",
    "success_url": "https://telegram.me/missdeliriousbot",
-   "logo": "Add Your Own "
+   "logo": "https://telegra.ph/file/2abd1c5de3a557b5f1172.jpg"
 }
