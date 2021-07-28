@@ -53,7 +53,7 @@ And the following:
 
 
 
-VERSION = "6.0"
+VERSION = "0.0.9"
 
 def vercheck() -> str:
     return str(VERSION)
